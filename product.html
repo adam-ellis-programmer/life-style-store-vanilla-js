@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css" />
+      <script type="module" src="./src/pages/product.js"></script>
+   </head>
+   <body>
+      <header>
+         <nav class="nav">
+            <div class="nav-center">
+               <button class="toggle-nav">
+                  <i class="fas fa-bars"></i>
+               </button>
+
+               <div class="middle-nav">
+                  <a href="index.html">
+                     <img src="./images/shop-logo-black.png" alt="" class="logo" />
+                  </a>
+
+                  <div class="advert-container">
+                     <img src="./images/top-banner.jpg" alt="" />
+                  </div>
+                  <div class="home-navbar">
+                     <ul class="home-nav-ul">
+                        <la><a class="home-nav-link" href="index.html">home</a></la>
+                        <la><a class="home-nav-link" href="products.html">shopping</a></la>
+                        <la><a class="home-nav-link" href="about.html">about</a></la>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="cart-div">
+                  <button class="toggle-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                  </button>
+                  <span class="cart-item-count">1</span>
+                  <a class="checkout-btn-2" href="checkout.html">checkout</a>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <div class="side-links-container">
+         <button class="toggle-nav toggle-nav-inner">
+            <i class="fas fa-bars"></i>
+         </button>
+         <ul class="mobile-nav">
+            <li>
+               <a href="index.html" class="nav-link"> home </a>
+            </li>
+            <li>
+               <a href="products.html" class="nav-link"> products </a>
+            </li>
+            <li>
+               <a href="about.html" class="nav-link"> about </a>
+            </li>
+
+            <l
+               ><a href="#">
+                  <div class="advert-box">
+                     <a href="products.html">
+                        <img src="./images/advert-nav.jpg" alt="" srcset="" />
+                     </a>
+                  </div>
+               </a>
+            </l>
+         </ul>
+      </div>
+
+      <div class="cart-overlay">
+         <article class="cart">
+            <button class="cart-close">
+               <i class="fas fa-times"></i>
+            </button>
+
+            <header>
+               <h3 class="cart-header">Your bag! happy shopping</h3>
+            </header>
+
+            <div class="cart-items"></div>
+
+            <footer>
+               <a href="checkout.html" class="checkout-btn">checkout</a>
+               <h3 class="cart-total">total: £456.00</h3>
+            </footer>
+         </article>
+      </div>
+
+      <section class="product-info-section">
+         <div class="product-advert-container">
+            <div class="product-advert-div">
+               <img class="side-advert-img" src="./images/side advert 1.jpg" alt="" srcset="" />
+            </div>
+            <div class="section-center single-product-center">
+               <div class="single-product-img-container">
+                  <img src="./images/test.jpg" alt="" class="single-product-img" />
+               </div>
+               <article class="single-product-info">
+                  <h2 class="single-product-title">Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h2>
+                  <p class="single-product-text">
+                     Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve,
+                     your everyday
+                  </p>
+                  <p class="single-product-price">£4567</p>
+
+                  <div class="single-product-btn-container">
+                     <button class="add-single-product-to-cart">Add to cart</button>
+                     <a href="products.html" class="keep-shopping">keep-shopping</a>
+                  </div>
+               </article>
+            </div>
+            <div class="product-advert-div">
+               <img class="side-advert-img" src="./images/side-adver-2.jpg" alt="" srcset="" />
+            </div>
+         </div>
+      </section>
+
+      <div class="loading-div">
+         <h3>loading</h3>
+      </div>
+      <script src="https://kit.fontawesome.com/c16c247401.js" crossorigin="anonymous"></script>
+   </body>
+</html>

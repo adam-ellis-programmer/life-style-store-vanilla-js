@@ -1,0 +1,6 @@
+{
+   "prettier.resolveGlobalModules": false,
+   "prettier.singleQuote": true,
+   "prettier.tabWidth": 3,
+   "liveServer.settings.port": 5504
+}

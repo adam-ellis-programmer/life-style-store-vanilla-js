@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css" />
+      <script type="module" src="./src/pages/checkout.js" defer></script>
+   </head>
+   <body>
+      <header>
+         <nav class="nav">
+            <div class="nav-center">
+               <button class="toggle-nav">
+                  <i class="fas fa-bars"></i>
+               </button>
+
+               <div class="middle-nav">
+                  <a href="index.html">
+                     <img src="./images/shop-logo-black.png" alt="" class="logo" />
+                  </a>
+
+                  <div class="advert-container">
+                     <img src="./images/top-banner.jpg" alt="" />
+                  </div>
+                  <div class="home-navbar">
+                     <ul class="home-nav-ul">
+                        <la><a class="home-nav-link" href="index.html">home</a></la>
+                        <la><a class="home-nav-link" href="products.html">shopping</a></la>
+                        <la><a class="home-nav-link" href="about.html">about</a></la>
+                     </ul>
+                  </div>
+               </div>
+
+               <div class="cart-div">
+                  <button class="toggle-cart">
+                     <i class="fas fa-shopping-cart"></i>
+                  </button>
+                  <span class="cart-item-count">1</span>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <div class="side-links-container">
+         <button class="toggle-nav toggle-nav-inner">
+            <i class="fas fa-bars"></i>
+         </button>
+         <ul class="mobile-nav">
+            <li>
+               <a href="index.html" class="nav-link"> home </a>
+            </li>
+            <li>
+               <a href="products.html" class="nav-link"> products </a>
+            </li>
+            <li>
+               <a href="about.html" class="nav-link"> about </a>
+            </li>
+
+            <l
+               ><a href="#">
+                  <div class="advert-box">
+                     <a href="products.html">
+                        <img src="./images/advert-nav.jpg" alt="" srcset="" />
+                     </a>
+                  </div>
+               </a>
+            </l>
+         </ul>
+      </div>
+
+      <div class="cart-overlay">
+         <article class="cart">
+            <button class="cart-close">
+               <i class="fas fa-times"></i>
+            </button>
+
+            <header>
+               <h3 class="cart-header">Your bag! happy shopping</h3>
+            </header>
+
+            <div class="cart-items"></div>
+
+            <footer>
+               <!-- <button class="checkout-btn">checkout</button> -->
+               <h3 class="cart-total"></h3>
+            </footer>
+         </article>
+      </div>
+
+      <p class="checkout-header">Welcome to your checkout</p>
+      <p class="checkout-header-price"></p>
+      <div class="empty-cart-btn-container">
+         <button class="clear-cart-btn">empty cart</button>
+      </div>
+
+      <section class="checkout-section">
+         <div class="checkout-center">
+            <div class="checkout-inner-div checkout-items-div">
+               <p class="checkout-title">your cart items <span class="cart-items-amount-span">(1)</span></p>
+               <div class="cart-items-list-header">
+                  <div class="cart-list-box"></div>
+                  <div class="cart-list-box cart-list-header">
+                     <p>amount</p>
+                     <p>price</p>
+                     <p>total</p>
+                  </div>
+               </div>
+               <div class="checkout-items-container"></div>
+            </div>
+            <div class="checkout-inner-div checkout-payment-div">
+               <p class="checkout-title">let's process your order</p>
+               <form class="payment-form">
+                  <div class="form-control">
+                     <input type="text" class="name-input" placeholder="First Name" />
+                     <input type="text" class="name-input" placeholder="Last Name" />
+                  </div>
+
+                  <div class="form-control">
+                     <input type="text" class="email-input" placeholder="Email" />
+                  </div>
+                  <div class="form-control">
+                     <input type="text" class="phone-input" placeholder="Phone Number" />
+                  </div>
+
+                  <div class="form-control">
+                     <textarea class="address-input" placeholder="Shipping Address"></textarea>
+                  </div>
+
+                  <div class="form-control">
+                     <input type="text" class="card-number-input" placeholder="Card Number" />
+                  </div>
+
+                  <div class="form-control">
+                     <input type="text" class="card-info-input" placeholder="Expiry Date" />
+                     <input type="text" class="card-info-input" placeholder="CSV" />
+                  </div>
+
+                  <div class="form-control">
+                     <input type="text" class="amount-due-input" placeholder="Amount" />
+                  </div>
+                  <div class="form-control">
+                     <button class="submit-payment-btn">Make Payment</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div class="footer-inner-div footer-div-1">
+            <p class="footer-about-text footer-about-title">about life style shop</p>
+            <p class="footer-about-text">
+               Unleash your inner stylist and tech enthusiast at The Lifestyle Store! From on-trend fashion and dazzling jewelry to
+               cutting-edge cameras and innovative gadgets, we have everything to elevate your style and capture life's moments. Explore a
+               carefully curated collection chosen to inspire your everyday. Find the perfect outfit, a statement piece, or the must-have
+               tech for you or a loved one. The Lifestyle Store – Where fashion meets functionality!
+            </p>
+         </div>
+         <div class="footer-inner-div footer-div-2">
+            <p class="footer-site-links-text">site links</p>
+            <ul class="site-links-ul">
+               <li><a class="footer-link" href="#">fashion</a></li>
+               <li><a class="footer-link" href="#">furniture</a></li>
+               <li><a class="footer-link" href="#">jewelery</a></li>
+               <li><a class="footer-link" href="#">electronics</a></li>
+               <li><a class="footer-link" href="#">cameras</a></li>
+               <li><a class="footer-link" href="#">luggage</a></li>
+            </ul>
+         </div>
+         <div class="footer-inner-div footer-logo-div">
+            <a href="index.html">
+               <img class="footer-logo" src="./images/shop-logo-white.png" alt="" srcset="" />
+            </a>
+            <p class="footer-date"></p>
+         </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/c16c247401.js" crossorigin="anonymous"></script>
+   </body>
+</html>
